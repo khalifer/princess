@@ -1,0 +1,73 @@
+# logial operators
+
+# a = 20
+
+# b = 100
+
+# if a==b:
+#     print('your are right')
+
+# else:
+#     print('lie')
+
+# state={"kano,kaduna,jos,lagos"}
+# for x in state:
+#     print(x)
+
+# color=input("what is your favourite color")
+# if color=="purple":
+#     print("excelent choice")
+# elif color=="teal":
+#     print("not bad")
+# elif color=="green":
+#     print("medicre")
+# elif color=="dark":
+#     print("i like how you think")
+# else:
+#     print("you are a monster")
+
+# username = "usman"
+# password = "12345"
+
+# if username =="usman" and password =="12345":
+# print("welcome to the app")
+
+# else:
+#     print("wrong username or password")
+
+# current_balance= 5000
+# withdraw= 2000
+# check=current_balance - withdraw
+# if check>=0:
+#     print("withdrawl successfully")
+
+# else:
+#     print("balance is not sufficient")
+
+print("rock")
+print("paper")
+print("scissors")
+
+player1 = input("player 1. make your move")
+player2 = input("player 2. make your move")
+
+if player1 == "rock" and player2 =="paper":
+    print("playuer 1 wins")
+
+elif player1 == "rock" and player2 == "scissors":
+    print("player 2 wins")
+
+elif player1 == "scissors" and player2 == "paper":
+    print("player 2 wins")
+
+elif player1 == "paper" and player2 == "rock":
+    print("player 1 wins")
+
+elif player1 == "paper" and player2 == "rock":
+    print("player 1 wins")
+
+elif player1 == player2:
+    print("it's a lie")
+
+else:
+    print("something went wrong!")
